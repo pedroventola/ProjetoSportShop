@@ -1,0 +1,103 @@
+body{
+background-image:url("../Imagens/fundo.jpg");
+background-repeat: no-repeat;
+background-size: 180%;
+display: block;
+font-family: 'Staatliches', Arial, cursive;    
+}
+
+.logo:hover{
+cursor: pointer;
+transform: skewY(-3deg);
+}
+
+h1{ 
+font-size: 35px;
+text-align: center;
+margin-top: 5px;
+}
+
+
+.produtos{
+display: flex;    
+flex-wrap: wrap;
+max-width: 800px;
+margin: 0 auto;
+background-color: rgba( 0, 0,0, 0.1);
+padding-left: 25px;
+padding-top: 15px;
+margin-top: 50px;
+border-radius: 1rem;
+}
+
+
+
+
+.produtos  div{
+flex: 1 1 200px;    
+margin: 15px ;
+position: relative;
+height: 304px;
+}
+
+.bolas{
+max-width: 100%;
+display: block;    
+width: 210px;
+height: 210px;
+border: 5px solid darkorange;
+padding: 1px;
+border-radius: 3rem;
+}
+
+select{
+left: 50%;
+transform: translateX(-50%);
+position: absolute;
+bottom: 0px;
+}
+
+select:hover{
+cursor: pointer;    
+
+}
+
+
+p{
+cursor: pointer;
+align-items: center;
+text-align: center;    
+margin-right: 5px;
+text-shadow: 1px 1px 2px white;
+}
+
+.seta:hover{
+width: 90px; 
+height: 90px; 
+}
+    
+
+
+.seta{
+width: 80px;
+height: 80px;
+position: absolute;
+bottom: 10px;
+right:50px;
+cursor: pointer;
+transition: width 1s, height 1s;
+background-color: rgba( 255, 255,255, 0.7);
+border-radius: 50%;
+}
+ 
+
+
+::-webkit-scrollbar{
+ display: none;   
+}
+
+input[type=submit]{
+display: none;    
+
+    
+}

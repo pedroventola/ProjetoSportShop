@@ -1,0 +1,30 @@
+body{
+    background-image:url("../Imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 180%;
+    display: block;
+    font-family: 'Staatliches', Arial, cursive;    
+    }
+
+
+
+.final{
+    max-width: 100%;
+    height: 450px;
+    background-color: rgba( 0, 0,0, 0.2);
+    padding-left: 25px;
+    padding-top: 40px;
+    margin-top: 40px;
+    border-radius: 1rem;
+    font-size: 30px;
+    }
+
+    input{
+    display: none;    
+    }
+
+.logo{
+margin-left: 93%;
+margin-top: -92px; 
+cursor: pointer;   
+}

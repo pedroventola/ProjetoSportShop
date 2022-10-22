@@ -1,0 +1,106 @@
+body{
+background-image:url("../Imagens/fundo.jpg");
+background-repeat: no-repeat;
+background-size: 180%;
+display: block;
+font-family: 'Staatliches', Arial, cursive;    
+}
+    
+.logo:hover{
+cursor: pointer;
+transform: skewY(-3deg);
+}
+    
+
+.seta:hover{
+width: 90px;    
+height: 90px;     
+}
+    
+.seta{
+width: 80px;
+height: 80px;
+position: absolute;
+bottom: 10px;
+right:50px;
+cursor: pointer;
+transition: width 1s, height 1s;
+background-color: rgba( 255, 255,255, 0.7);
+border-radius: 50%;
+}
+
+.fundo{
+max-width: 100%;
+height: 450px;
+background-color: rgba( 0, 0,0, 0.2);
+padding-left: 25px;
+padding-top: 40px;
+margin-top: 40px;
+border-radius: 1rem;
+
+}
+
+ .tabela{
+border-radius: 7px;
+overflow: auto;
+width:500px;
+height:400px;
+overflow-x: hidden;
+overflow-y: hidden;
+
+}  
+
+thead,tr{
+background-color:rgba(255, 255, 255, 0.5);
+width: 500px;
+height: 50px;  
+border-collapse: collapse;
+text-align: center;
+
+}
+ 
+table{
+height:400px;    
+background-color:rgba(255, 255, 255, 0.5);
+border-collapse: collapse;
+width: 500px;
+
+
+}
+
+table tbody tr:last-child{    
+background-color:rgba(230, 174, 111, 0.9);    
+
+}
+
+
+th {
+border-bottom: 1px solid #ddd;
+text-align: center;
+
+}
+
+td{
+border: 1px solid #ddd;
+   
+}
+
+
+
+.botao{
+display: none;    
+}
+
+
+
+.texto{
+text-align: right;
+padding: 0px;  
+margin-right: 100px;
+margin-top: -200px;
+}
+
+
+#finalizar{
+display: none;    
+}
